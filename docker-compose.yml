@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  spring-hello-world:
+    build: .
+    image: spring-hello-world
+    ports:
+      - "8080:8080" #http://localhost:8080/hello
+
